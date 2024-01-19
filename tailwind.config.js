@@ -7,8 +7,13 @@ export default {
   theme: {
     extend: {
       colors:{
-        'primary':'#205295',
-        'background':'#0D0D0D'
+        'primary':'#F0ECE5',
+        'secondary':'#B6BBC4',
+        'extra':'#31304D',
+        'background':'#161A30'
+      },
+      fontFamily:{
+        'poppins':'Poppins'
       }
     },
   },
