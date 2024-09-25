@@ -1,10 +1,18 @@
-function App() {
+import { About, Contact, Experience, Hero, Skills, Work } from "./containers";
+import Nav from "./components/Nav/Nav"
 
+function App() {
   return (
     <>
-      Hello
+      <Nav/>
+      <Hero />
+      <About />
+      <Experience />
+      <Skills />
+      <Work/>
+      <Contact />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
