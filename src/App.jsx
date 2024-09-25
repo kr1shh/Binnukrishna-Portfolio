@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Hero, Skills, Work } from "./containers";
+import { About, Contact, Experience, Hero, Skills, Work } from "./containers/index";
 import Nav from "./components/Nav/Nav"
 
 function App() {
